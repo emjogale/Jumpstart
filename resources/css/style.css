@@ -33,10 +33,9 @@ body { padding-top: 60px; }
 .jumbotron.jumbotron-bike h1 {
  font-family: 'Monoton', cursive;
  font-size: 7.1rem;
- text-align: center;
 }
 
-.jumbotron.jumbotron-bike h1, p {
+.jumbotron.jumbotron-bike h1, .jumbotron.jumbotron-bike p {
   color: white;
   text-shadow: -1px -1px 0 #000,
                1px -1px 0 #000,
@@ -47,6 +46,33 @@ body { padding-top: 60px; }
 .jumbotron.jumbotron-bike p {
   width: 51.3rem;
   margin: auto;
-  text-align: center;
   color: white;
+}
+/* button styles */
+.btn-primary:hover {
+  box-shadow:
+}
+
+.btn-primary: {
+  box-shadow:
+}
+
+.btn-primary: {
+  box-shadow:
+}
+
+/* image container styles */
+.image-container img {
+  opacity: 0.7;
+}
+
+.image-container img:hover {
+transform: scale(1.5);
+}
+
+.help strong {
+    display: inline-block;
+    margin-bottom: 1.4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
