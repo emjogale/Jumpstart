@@ -47,13 +47,28 @@ h3 {
   background-size: cover;
 }
 
-.jumbotron.jumbotron-bike h1 {
+.jumbotron.jumbotron-flowers {
+  background-image: url('../images/jumbotron-flowers.jpg');
+  background-size: cover;
+}
+
+.jumbotron.jumbotron-beer {
+  background-image: url('../images/jumbotron-beer.jpg');
+  background-size: cover;
+}
+
+.jumbotron.jumbotron-duffel {
+  background-image: url('../images/jumbotron-duffel.jpg');
+  background-size: cover;
+}
+
+.jumbotron h1 {
  font-family: 'Monoton', cursive;
  font-size: 7.1rem;
  padding-top: 11.85rem;
 }
 
-.jumbotron.jumbotron-bike h1, .jumbotron.jumbotron-bike p {
+.jumbotron h1, .jumbotron p {
   color: white;
   text-shadow: -1px -1px 0 #000,
                1px -1px 0 #000,
@@ -61,14 +76,14 @@ h3 {
                 1px 1px 0 #000;
 }
 
-.jumbotron.jumbotron-bike p {
+.jumbotron p {
   font-size: 1.5rem;
-  width: 51.3rem;
+  /*width: 51.3rem;*/
   margin: auto;
   color: white;
 }
 
-.jumbotron.jumbotron-bike .btn-primary{
+.jumbotron .btn-primary{
   margin-bottom: 11.85rem;
 }
 
@@ -124,14 +139,19 @@ h3 {
   background-color: #f3f3f3;
 }
 .help strong {
-  display: inline-block;
-
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 .help p {
-  width: 42rem;
+  /*width: 42rem;*/
   margin: auto;
   padding: 1.4rem;
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 760px) {
+  .jumbotron.jumbotron-bike h1 {
+    font-size: 5.7rem;
+  }
 }
