@@ -5,19 +5,25 @@
     <link href="icon.ico" type="image/x-icon" rel="icon"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <!-- reset stylesheet -->
-    <link rel="stylesheet" href="./resources/css/reset.css">
-    <!--Bootstrap Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <!-- slick stylesheet -->
-     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./resources/css/style.css">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+
+    <!--Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="resources/js/main.js"></script>
   </head>
 
   <body>
 
-    <header>
+
       <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
@@ -25,56 +31,49 @@
         <li><a href="#">Start a project</a></li>
         <li><a href="#">About us</a></li>
       </ul>
-      <img src="resources/images/logo.png" class="navbar-brand navbar-right navbar-collapse">
+      <img class="navbar-brand navbar-right collapse navbar-collapse" src="resources/images/logo.png">
     </div>
   </nav>
-    </header>
 
-    <main>
+
+
       <!-- jumbotron section -->
-      <section>
-      <div class="carousel">
 
-         <div class="jumbotron jumbotron-bike">
+      <div class="carousel">
+        <div class="jumbotron jumbotron-bike">
            <div class="container-fluid text-center">
-            <h1>Get Going.</h1>
+            <h1>GET GOING.</h1>
             <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
           </div>
+        </div>
+      <div class="jumbotron jumbotron-flowers">
+          <div class="container-fluid text-center">
+            <h1>GET THINKING.</h1>
+            <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+           </div>
           </div>
-
-          <div class="jumbotron jumbotron-flowers">
-            <div class="container-fluid text-center">
-              <h1>GET THINKING.</h1>
-              <p>Meet like-minded individuals who will help fuel your creative juices.</p>
-           </div>
-           </div>
-
-           <div class="jumbotron jumbotron-beer">
-             <div class="container-fluid text-center">
-               <h1>GET CREATING.</h1>
-               <p>Stop overthinking projects and begin putting them out into the world.</p>
-               </div>
+       <div class="jumbotron jumbotron-beer">
+          <div class="container-fluid text-center">
+             <h1>GET CREATING.</h1>
+             <p>Stop overthinking projects and begin putting them out into the world.</p>
             </div>
-
-            <div class="jumbotron jumbotron-duffel">
-              <div class="container-fluid text-center">
-                <h1>GET STARTED.</h1>
-                <p>What are you waiting for? Today's the day for your next big idea.</p>
-
-              </div>
-             </div>
-
           </div>
+        <div class="jumbotron jumbotron-duffel">
+            <div class="container-fluid text-center">
+              <h1>GET STARTED.</h1>
+              <p>What are you waiting for? Today's the day for your next big idea.</p>
+            </div>
+         </div>
+       </div>
 
-          <div class="relative-wrapper">
-    <a href="#" class="btn btn-primary btn-lg cta">Jump in</a>
-  </div>
-       </section>
+      <div class="relative-wrapper">
+        <a href="#" class="btn btn-primary btn-lg cta">Jump in</a>
+     </div>
 
       <!-- featured project section -->
-      <section class="featured-project">
-        <div class="container">
-          <h2>Featured project</h2>
+      <section class="container featured-project">
+        <div class="row">
+          <h2 class="col-xs-12">Featured project</h2></div>
           <div class="row">
            <div class="col-md-6 col-xs-12">
               <div class="image-container">
@@ -86,7 +85,7 @@
               <p>by Leo De Firenze</p>
               <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing and her family, friends, pets, and eventual depature from a freezing valley in Northern Italy and through beautiful cinematography and narration.</p>
            </div>
-           <div class="col-lg-3 col-md-6">
+           <div class="col-md-3 col-xs-6">
              <h3 class="blue">Product Categories</h3>
              <ul>
                <li>Art</li>
@@ -108,14 +107,13 @@
              </ul>
             </div>
           </div>
-        </div>
       </section>
 
 <!-- Projects section -->
-      <section class="projects">
-        <div class="container">
-          <h2>Projects</h2>
-
+      <div class="projects container">
+        <div class="row">
+          <h2 class="col-xs-12">Projects</h2>
+         </div>
           <div class="row">
             <div class="col-xs-12 col-md-4">
               <div class="image-container">
@@ -147,7 +145,7 @@
 
           </div>
          </div>
-      </section>
+
 <!-- Having trouble section -->
       <section class="help">
         <div class="container-fluid text-center">
@@ -156,14 +154,6 @@
           <a  class="btn btn-primary btn-lg"href="#">Learn more</a>
         </div>
       </section>
-    </main>
 
-    <footer></footer>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-     <script src="resources/js/main.js"></script>
-
-    </script>
   </body>
 </html>
